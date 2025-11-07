@@ -1,0 +1,23 @@
+[
+    {
+        "name": "eve and frank",
+        "kind": "mnemonic",
+        "mnemonicFile": "~/drt-sdk-testwallets/users/mnemonic.txt",
+        "addressIndices": [
+            4,
+            5
+        ]
+    },
+    {
+        "name": "carol",
+        "kind": "keystore",
+        "file": "~/drt-sdk-testwallets/users/carol.json",
+        "password": "password",
+        "addressIndices": []
+    },
+    {
+        "name": "heidi",
+        "kind": "pem",
+        "file": "~/drt-sdk-testwallets/users/heidi.pem"
+    }
+]

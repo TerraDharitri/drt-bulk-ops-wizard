@@ -1,0 +1,52 @@
+[
+    {
+        "name": "alice, bob, carol and dan",
+        "kind": "mnemonic",
+        "mnemonic": "moral volcano peasant pass circle pen over picture flat shop clap goat never lyrics gather prepare woman film husband gravity behind test tiger improve",
+        "addressIndices": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "name": "eve and frank",
+        "kind": "mnemonic",
+        "mnemonicFile": "~/drt-sdk-testwallets/users/mnemonic.txt",
+        "addressIndices": [
+            4,
+            5
+        ]
+    },
+    {
+        "name": "alice",
+        "kind": "keystore",
+        "file": "~/drt-sdk-testwallets/users/alice.json",
+        "password": "password",
+        "addressIndices": []
+    },
+    {
+        "name": "bob",
+        "kind": "keystore",
+        "file": "~/drt-sdk-testwallets/users/bob.json",
+        "passwordFile": "~/drt-sdk-testwallets/users/password.txt",
+        "addressIndices": []
+    },
+    {
+        "name": "all friends",
+        "kind": "keystores",
+        "folder": "~/drt-sdk-testwallets/users",
+        "uniquePasswordFile": "~/drt-sdk-testwallets/users/password.txt"
+    },
+    {
+        "name": "cold",
+        "kind": "ledger",
+        "addressIndices": [
+            0,
+            1,
+            2,
+            3
+        ]
+    }
+]

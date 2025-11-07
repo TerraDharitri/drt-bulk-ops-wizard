@@ -1,0 +1,5 @@
+requests>=2.32.0,<3.0.0
+ledgercomm[hid]
+rich==13.3.4
+dharitri-py-sdk[ledger]==0.0.6
+pyotp==2.9.0
